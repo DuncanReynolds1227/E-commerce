@@ -2,7 +2,7 @@ import os
 import webview
 import http.server
 import socketserver
-import threading
+
 from api import Api
 
 DEBUG = False
