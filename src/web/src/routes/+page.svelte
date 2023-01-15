@@ -7,6 +7,8 @@
 	import { cursorPos } from '../stores/store';
 	import toast from 'svelte-french-toast';
 
+	let ruban: Ruban;
+	let speed = 0.5;
 	let programme: string = '+>>++++++++++[<<[>++<-]>[<+>-]>-]<<!';
 	let openMenu = false;
 	let showInfo = false;
