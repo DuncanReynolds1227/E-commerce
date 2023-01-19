@@ -21,14 +21,6 @@ class Api:
     def __init__(self):
         self.interpreteur = Interprerteur(99999)
 
-    def set_window(self, window):
-        """Set l'objet window pour pouvoir communiquer avec le code JS
-
-        Args:
-            window (Window): La fenêtre de webview
-        """
-        self.window = window
-
     def stopExecution(self):
         """Ex: cette fonction est appelé par le code javascript
         lors du clique sur le bouton stop
