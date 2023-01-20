@@ -31,15 +31,7 @@ class Pile:
         return self.sommet == -1
     
     
-    def initialiser(self):
-        """
-        Réinitialisation de la pile 
-        :return: None
-        """
-        
-        self.__init__()
-
-
+  
     def empiler(self,ajout): 
         """ 
         Ajout d'un élément 
