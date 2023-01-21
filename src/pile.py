@@ -43,17 +43,7 @@ class Pile:
         self.sommet += 1
        
         
-    def depiler(self): 
-        """ 
-        Retrait d'un élément 
-        :return: entier dépilé
-        """
-        
-        if not self.est_vide():
-            elt_retire = self.accumulateur.pop(self.sommet)
-            self.sommet -= 1
-            return elt_retire
-    
+  
     
     def __repr__(self):
         """
